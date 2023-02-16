@@ -1,0 +1,33 @@
+
+*{color: darkgray; background-color: black; font-family: 'Poppins', sans-serif;}
+
+p{  color: red;
+    width: 300px;
+}
+
+
+h{ color:beige;
+    font-weight: bold;
+}
+
+#este { color: burlywood;
+    width:  600px;
+}
+
+.clase{
+    color: crimson;
+    width: 200px;
+}
+
+section {
+    background-color: rgb(152, 127, 160);
+    width: 250px;
+    border: 10px solid blue;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/**
+comentario
+*/
