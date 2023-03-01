@@ -1,5 +1,9 @@
 
-*{color: darkgray; background-color: black; font-family: 'Poppins', sans-serif;}
+*{color: darkgray;  font-family: 'Poppins', sans-serif;}
+
+body{
+    background-color: black;
+}
 
 p{  color: red;
     width: 300px;
