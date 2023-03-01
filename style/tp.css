@@ -1,26 +1,96 @@
 *{color: #fff;}
 body{background-color: rgb(40, 40, 40);}
 
+p{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
 
 #perfil{
     width: 150px;
     border-radius: 50%;
 }
 
+.tipografia{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+#bandera{
+    width:30px
+}
+
+.outline{
+    background-image:  linear-gradient(135deg,#008aff,#86d472); 
+    
+    margin: 100px 442px 100px 442px;
+    padding: 5px 0;
+}
 
 .card{
-    max-width: 730px;
+    background-color: rgb(40, 40, 40);
+    max-width: 570px;
     margin: auto;
-    position: relative;
-    padding: 20px 0;
+    padding: 10px 0;
     width: 100%;
-    border: 3px solid white ;
     border-radius: 3px;
     overflow: hidden;
     text-align: center;
     z-index: 5;
 }
 
+article{
+    padding-left: 50px;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+   
+}
+
+.barras{
+    float: inline-end;
+    height: 15px;
+}
+#barra1{
+    background: #008aff;
+    width: 300px; 
+}
+#barra2{
+    background: #86d472; 
+    width: 150px;
+}
+ 
+
+li{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    background-image:  linear-gradient(135deg,#008aff,#86d472); 
+
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+.icons{
+ width: 60px;
+ padding-inline-end: 10px;
+ padding-inline-start: 300px;
+}
+#accounts{ 
+    
+    display: flex;
+}
 
 
 .bn3637 {
@@ -39,6 +109,37 @@ body{background-color: rgb(40, 40, 40);}
     border-radius: 3rem;
 }
   
+.bn3639 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
+.bn3638 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    margin: 3px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+}
 .bn37 {
     border-color: #fff;
     transition: transform 0.2s cubic-bezier(0.235, 0, 0.05, 0.95);
